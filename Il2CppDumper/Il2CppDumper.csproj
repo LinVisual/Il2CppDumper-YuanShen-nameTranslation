@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<OutputType>Exe</OutputType>
+	<TargetFrameworks>net472</TargetFrameworks>
+	<Version>1.0.0</Version>
+	<AssemblyVersion>1.0.0.0</AssemblyVersion>
+	<FileVersion>1.0.0.0</FileVersion>
+	<Copyright>Copyright © Perfare 2016-2020</Copyright>
+	<Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net472'">
+	<Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<Reference Include="Mono.Cecil">
+	  <HintPath>..\Plugins\Mono.Cecil.dll</HintPath>
+	</Reference>
+	<Reference Include="Mono.Cecil.Mdb">
+	  <HintPath>..\Plugins\Mono.Cecil.Mdb.dll</HintPath>
+	</Reference>
+	<Reference Include="Mono.Cecil.Pdb">
+	  <HintPath>..\Plugins\Mono.Cecil.Pdb.dll</HintPath>
+	</Reference>
+	<Reference Include="Mono.Cecil.Rocks">
+	  <HintPath>..\Plugins\Mono.Cecil.Rocks.dll</HintPath>
+	</Reference>
+	<Reference Include="Newtonsoft.Json">
+	  <HintPath>..\Plugins\Newtonsoft.Json.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+	<None Update="Scripts\ghidra.py">
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</None>
+	<None Update="Scripts\ida.py">
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</None>
+	<None Update="Scripts\ida_py3.py">
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</None>
+	<None Update="Scripts\ida_with_struct.py">
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</None>
+	<None Update="Scripts\ida_with_struct_py3.py">
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</None>
+  </ItemGroup>
+
+</Project>

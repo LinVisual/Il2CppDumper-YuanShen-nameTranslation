@@ -1,8 +1,7 @@
 # Il2CppDumper
 Modified version of Il2CppDumper allows you to dump methods of UserAssembly.dll of the game Genshin Impact
 
-I forked it from [https://github.com/khang06/Il2CppDumper-YuanShen](https://github.com/khang06/Il2CppDumper-YuanShen) and fixed the issue where BeeByte Obfuscator mappings failed to load
-Only tested on leaked 1.5 development build version
+I forked it from [https://github.com/khang06/Il2CppDumper-YuanShen](https://github.com/khang06/Il2CppDumper-YuanShen) and fixed the issue where BeeByte Obfuscator mappings failed to load, only tested on leaked 1.5 development build version
 
 ![ILSpyScreenshot1](./images/ILSpyScreenshot1.png)
 ![ILSpyScreenshot2](./images/ILSpyScreenshot2.png)

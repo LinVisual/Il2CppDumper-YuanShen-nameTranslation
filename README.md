@@ -3,8 +3,8 @@ Modified version of Il2CppDumper allows you to dump methods of UserAssembly.dll 
 
 I forked it from [https://github.com/khang06/Il2CppDumper-YuanShen](https://github.com/khang06/Il2CppDumper-YuanShen) and fixed the BeeByte Obfuscator mappings failed to load, only tested on leaked 1.5 dev build. But the original project was lost, so I uploaded the decompiled code.
 
-![ILSpyScreenshot1](./images/ILSpyScreenshot1.png)
-![ILSpyScreenshot2](./images/ILSpyScreenshot2.png)
+![ILSpyScreenshot1](./ReadMe%20Assets/ILSpy%20Screenshot%201.png)
+![ILSpyScreenshot2](./ReadMe%20Assets/ILSpy%20Screenshot%202.png)
 
 ## Usage
 
@@ -20,7 +20,7 @@ Folder, containing all restored dll files
 
 Use [dnSpy](https://github.com/0xd4d/dnSpy), [ILSpy](https://github.com/icsharpcode/ILSpy) or other .Net decompiler tools to view
 
-Can be used to extract Unity `MonoBehaviour` and `MonoScript`, for [UtinyRipper](https://github.com/mafaca/UtinyRipper), [UABE](https://7daystodie.com/forums/showthread.php?22675-Unity-Assets-Bundle-Extractor)
+Can be used to extract Unity `MonoBehaviour` and `MonoScript`, for [UtinyRipper](https://github.com/mafaca/UtinyRipper), [UABE](https://github.com/SeriousCache/UABE)
 
 #### Scripts/ida.py
 
